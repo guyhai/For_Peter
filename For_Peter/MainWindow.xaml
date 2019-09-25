@@ -1,0 +1,23 @@
+﻿<Window  x:Class="For_Peter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:For_Peter"
+        mc:Ignorable="d"
+        Title="Json Viewer" Height="350" Width="500" Loaded="Window_Loaded">
+
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="right click on column header to choose which columns you want to see" VerticalAlignment="Top" Margin="44,0,0,0"/>
+        <local:DataGridEx x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.917,5.462" IsReadOnly="True" IsSynchronizedWithCurrentItem="False" />
+
+
+
+
+
+
+    </Grid>
+
+
+</Window>
